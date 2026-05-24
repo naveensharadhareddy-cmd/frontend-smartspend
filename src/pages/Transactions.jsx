@@ -694,7 +694,7 @@ export default function Transactions() {
   const searchRef = useRef(null);
 
   const CATEGORIES = ["Food", "Groceries", "Shopping", "Travel", "Entertainment", "Bills", "Medicine", "Education", "Finance", "Transfer", "Income", "Salary", "Refund", "Cashback", "Mobile Banking", "Other"];
-  const API = "https://smartspend-backend-production-6f21.up.railway.app";
+  const API = "https://backend-smartspend.onrender.com";
 
   useEffect(()=>{
     const onResize=()=>setIsMobile(window.innerWidth<=768);

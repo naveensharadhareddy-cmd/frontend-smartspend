@@ -235,7 +235,7 @@ function AddModal({token,onClose,onSuccess,isMobile}) {
   });
   const [loading,setLoading]=useState(false);
   const [error,setError]=useState("");
-  const API="https://smartspend-backend-production-6f21.up.railway.app";
+  const API="https://backend-smartspend.onrender.com";
 
   function set(k,v){setForm(f=>({...f,[k]:v}));}
 
@@ -342,7 +342,7 @@ export default function Reminders() {
   const [toast,setToast]=useState(null);
   const [isMobile,setIsMobile]=useState(window.innerWidth<=900);
 
-  const API="https://smartspend-backend-production-6f21.up.railway.app";
+  const API="https://backend-smartspend.onrender.com";
 
   useEffect(()=>{
     const onResize=()=>setIsMobile(window.innerWidth<=900);

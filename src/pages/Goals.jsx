@@ -400,7 +400,7 @@ export default function Goals() {
   injectCSS();
   const navigate=useNavigate();
   const token=localStorage.getItem("token");
-  const API="https://smartspend-backend-production-6f21.up.railway.app";
+  const API="https://backend-smartspend.onrender.com";
 
   const [goals,setGoals]=useState([]);
   const [savings,setSavings]=useState(0);

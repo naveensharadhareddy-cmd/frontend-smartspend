@@ -360,7 +360,7 @@ export default function DetectedTransactions() {
   injectCSS();
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
-  const API = "https://smartspend-backend-production-6f21.up.railway.app";
+  const API = "https://backend-smartspend.onrender.com";
 
   const [pending,    setPending]   = useState([]);
   const [loading,    setLoading]   = useState(true);

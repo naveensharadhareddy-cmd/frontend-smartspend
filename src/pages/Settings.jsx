@@ -220,7 +220,7 @@ export default function Settings() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
   const [pendingCount, setPendingCount] = useState(0);
-  const API = "https://smartspend-backend-production-6f21.up.railway.app";
+  const API = "https://backend-smartspend.onrender.com";
 
   /**
    * ✅ FIX: Transaction Mode — saved in localStorage AND synced with backend
